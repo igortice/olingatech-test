@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  encoding: utf-8
+  username: olingatech_test
+  password: olingatech_test
+  host: localhost
+  port: 5432
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: olingatech_test_development
+  #schema_search_path: public
+  #min_messages: notice
+
+test:
+  <<: *default
+  database: olingatech_test_test
+
+production:
+  <<: *default
+  database: olingatech_test_production
+  username: olingatech_test
+  password: <%= ENV['OLINGATECH_TEST_DATABASE_PASSWORD'] %>
