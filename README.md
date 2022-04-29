@@ -1,24 +1,20 @@
-# README
+# Olinga Tech - Teste de nível para vagas de TI
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Pré-requisitos:
 
-Things you may want to cover:
+- RAILS v6.1.5
+- POSTGRES v14.*
+- RVM == ruby-2.7.6
+- NODE v16.15.*
+- YARN v1.22.*
 
-* Ruby version
+### Objetivos:
 
-* System dependencies
+Esse repositório tem como objetivo avaliar candidatos para vagas de **junior**, **pleno** e **senior** para empresa
+Olinga Tech.
 
-* Configuration
+Nesse teste o usuário vai ser levado a resolver problemas que são encontrados no dia a dia da empresa.
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+###
