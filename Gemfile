@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -29,8 +31,27 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  # Awesome Print - Color
+  gem 'awesome_print'
+
+  # Better Errors -
+  gem 'better_errors'
+  gem 'binding_of_caller'
+
+  # Byebug - Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+
+  # Pry Rails - Debugger rails and change rails console
+  gem 'pry-rails'
+
+  # Rubocop Rails - Metrics
+  gem 'rubocop-rails_config'
+
+  # Shog - Log
+  gem 'shog'
+
+  # Execution Time - Metrics time console
+  gem 'execution_time'
 end
 
 group :development do

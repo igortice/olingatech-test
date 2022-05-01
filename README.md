@@ -1,14 +1,14 @@
 # Olinga Tech - Teste de nível para vagas de TI
 
-### Pré-requisitos:
+## Pré-requisitos:
 
-- RAILS v6.1.5
-- POSTGRES v14.*
-- RVM == ruby-2.7.6
-- NODE v16.15.*
-- YARN v1.22.*
+- **RAILS** 6.1.5
+- **RVM** ruby-2.7.6
+- **POSTGRES** v14.*
+- **NODE** v16.15.*
+- **YARN** v1.22.*
 
-### Objetivos:
+## Objetivos:
 
 Esse repositório tem como objetivo avaliar candidatos para vagas de **junior**, **pleno** e **senior** para empresa
 Olinga Tech.
